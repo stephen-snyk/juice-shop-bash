@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
+import { rateLimit } from 'express-rate-limit'
 import fs = require('fs')
 import { type Request, type Response, type NextFunction } from 'express'
 
@@ -18,8 +19,15 @@ const Entities = require('html-entities').AllHtmlEntities
 const entities = new Entities()
 
 module.exports = function getUserProfile () {
+  const rateLimiter = rateLimit({
+    windowMs: 30 * 60 * 1000, // 30 minutes
+    limit: 5, // Limit each IP to 5 requests per windowMs
+  })
+
   return (req: Request, res: Response, next: NextFunction) => {
-    fs.readFile('views/userProfile.pug', function (err, buf) {
+    rateLimiter(req, res, () => {
+      fs.readFile('views/userProfile.pug', function (err, buf) {
+      })
       if (err != null) throw err
       const loggedInUser = security.authenticatedUsers.get(req.cookies.token)
       if (loggedInUser) {
