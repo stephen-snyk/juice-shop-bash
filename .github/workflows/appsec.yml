@@ -52,7 +52,7 @@ jobs:
           snyk container monitor freshdemo/juice-shop-bash:latest --file=Dockerfile --project-business-criticality=critical --project-tags="component=pkg:juice-shop-bash@main" --org=8732cc6d-085e-4f1d-ba98-cf4b491723fb
           
       - name: Use the Upload Artifact GitHub Action
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: results-code
           path: results-code.html
