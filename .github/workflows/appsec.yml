@@ -2,7 +2,7 @@ name: devSecops
 
 on:
   push:
-    branches: [ main ]
+    branches: [ FR-sarif ]
   pull_request:
     branches: [ main ]
 
@@ -34,13 +34,14 @@ jobs:
         run: |
           npm install snyk-to-html -g
           snyk test --json | snyk-to-html -o result.html
-      - name: Snyk Open Source # For testing and failing please add snyk test before snyk monitor
-        run: |
-          snyk monitor --all-projects --project-business-criticality=critical --project-tags="component=pkg:juice-shop-bash@main" --org=8732cc6d-085e-4f1d-ba98-cf4b491723fb || true
+     # - name: Snyk Open Source # For testing and failing please add snyk test before snyk monitor
+     #   run: |
+     #     snyk monitor --all-projects --project-business-criticality=critical --project-tags="component=pkg:juice-shop-bash@main" --org=8732cc6d-085e-4f1d-ba98-cf4b491723fb || true
           
       - name: Snyk Code # Remove || true to fail if there are vulnerabilities
-        run: |
-          snyk code test --json | snyk-to-html -o results-code.html || true
+        run: |  
+           snyk code test --json | snyk-to-html -o results-code.html || true
+           snyk code test --sarif  > results.sarif || true
       
       - name: Snyk IaC # Remove || true to fail if there are vulnerabilities
         run: |
@@ -56,3 +57,8 @@ jobs:
         with:
           name: results-code
           path: results-code.html
+            
+      - name: Upload SARIF file
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: results.sarif
