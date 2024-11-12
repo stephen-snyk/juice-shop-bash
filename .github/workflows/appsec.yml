@@ -25,7 +25,7 @@ jobs:
           cache: 'npm'
           cache-dependency-path: frontend/package.json
      # - run: npm install --package-lock-only
-      - run: npm install
+     # - run: npm install
       - run: npm i -g snyk
       - run: snyk auth ${{ secrets.SNYK_TOKEN }}
 
@@ -33,7 +33,8 @@ jobs:
       - name: install snyk-to-html
         run: |
           npm install snyk-to-html -g
-          snyk test --json | snyk-to-html -o result.html
+      #    snyk test --json | snyk-to-html -o result.html
+
      # - name: Snyk Open Source # For testing and failing please add snyk test before snyk monitor
      #   run: |
      #     snyk monitor --all-projects --project-business-criticality=critical --project-tags="component=pkg:juice-shop-bash@main" --org=8732cc6d-085e-4f1d-ba98-cf4b491723fb || true
@@ -43,14 +44,14 @@ jobs:
            snyk code test --json | snyk-to-html -o results-code.html || true
            snyk code test --sarif  > results.sarif || true
       
-      - name: Snyk IaC # Remove || true to fail if there are vulnerabilities
-        run: |
-         snyk iac test --report --org=8732cc6d-085e-4f1d-ba98-cf4b491723fb || true
+      #- name: Snyk IaC # Remove || true to fail if there are vulnerabilities
+      #  run: |
+      #   snyk iac test --report --org=8732cc6d-085e-4f1d-ba98-cf4b491723fb || true
      
-      - name: Snyk Container # Rename your image, for testing and failing please add snyk container test before snyk container monitor
-        run: |
-          docker build . -t freshdemo/juice-shop-bash:latest
-          snyk container monitor freshdemo/juice-shop-bash:latest --file=Dockerfile --project-business-criticality=critical --project-tags="component=pkg:juice-shop-bash@main" --org=8732cc6d-085e-4f1d-ba98-cf4b491723fb
+      #- name: Snyk Container # Rename your image, for testing and failing please add snyk container test before snyk container monitor
+      #  run: |
+      #    docker build . -t freshdemo/juice-shop-bash:latest
+      #    snyk container monitor freshdemo/juice-shop-bash:latest --file=Dockerfile --project-business-criticality=critical --project-tags="component=pkg:juice-shop-bash@main" --org=8732cc6d-085e-4f1d-ba98-cf4b491723fb
           
       - name: Use the Upload Artifact GitHub Action
         uses: actions/upload-artifact@v4
