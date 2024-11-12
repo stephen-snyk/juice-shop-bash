@@ -39,9 +39,12 @@ jobs:
      #   run: |
      #     snyk monitor --all-projects --project-business-criticality=critical --project-tags="component=pkg:juice-shop-bash@main" --org=8732cc6d-085e-4f1d-ba98-cf4b491723fb || true
           
-      - name: Snyk Code # Remove || true to fail if there are vulnerabilities
+      - name: Snyk Code HTML # Remove || true to fail if there are vulnerabilities
         run: |  
            snyk code test --json | snyk-to-html -o results-code.html || true
+
+      - name: Snyk Code SARIF # Remove || true to fail if there are vulnerabilities
+        run: |  
            snyk code test --sarif  > results.sarif || true
       
       #- name: Snyk IaC # Remove || true to fail if there are vulnerabilities
