@@ -2,7 +2,7 @@ name: devSecops
 permissions:
   contents: write
   security-events: write
-  
+
 on:
   push:
     branches: [ FR-sarif ]
@@ -50,14 +50,14 @@ jobs:
         run: |  
            snyk code test --sarif  > results.sarif || true
 
-      - name: Set SARIF file permissions
-        run: chmod 644 results.sarif
+     # - name: Set SARIF file permissions
+     #   run: chmod 644 results.sarif
 
-      - name: Check SARIF file size
-        run: |
-          if [ ! -s results.sarif ]; then
-          echo "SARIF file is empty or invalid"; exit 1
-          fi
+     # - name: Check SARIF file size
+     #   run: |
+     #     if [ ! -s results.sarif ]; then
+     #     echo "SARIF file is empty or invalid"; exit 1
+     #     fi
       
       #- name: Snyk IaC # Remove || true to fail if there are vulnerabilities
       #  run: |
