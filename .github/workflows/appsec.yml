@@ -1,10 +1,13 @@
 name: devSecops
-
+permissions:
+  contents: write
+  security-events: write
+  
 on:
   push:
     branches: [ FR-sarif ]
-  pull_request:
-    branches: [ main ]
+  #pull_request:
+  #  branches: [ main ]
 
 jobs:
   build:
@@ -49,7 +52,7 @@ jobs:
 
       - name: Set SARIF file permissions
         run: chmod 644 results.sarif
-        
+
       - name: Check SARIF file size
         run: |
           if [ ! -s results.sarif ]; then
