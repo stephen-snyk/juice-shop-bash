@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-    #      cache-dependency-path: frontend/package.json
+          cache-dependency-path: frontend/package.json
     #  - name: Checkout Joe's Script
     #    uses: actions/checkout@v4
     #     with:
