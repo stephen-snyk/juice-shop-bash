@@ -26,12 +26,12 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-          cache-dependency-path: frontend/package.json
+    #      cache-dependency-path: frontend/package.json
     #  - name: Checkout Joe's Script
     #    uses: actions/checkout@v4
     #     with:
     #      repository: joeshope/sarif_script
-      - run: npm install --package-lock-only
+    #  - run: npm install --package-lock-only
       - run: npm install
       - run: npm i -g snyk
       - run: snyk auth ${{ secrets.SNYK_TOKEN }}
