@@ -80,8 +80,12 @@ jobs:
       #    name: results-code
       #    path: results-code.html
             
-      - name: Upload SARIF file
+      - name: Upload Code SARIF file
         uses: github/codeql-action/upload-sarif@v3
         with:
-          sarif_file: results.sarif, output=opensoure.json
+          sarif_file: results.sarif
+      - name: Upload Open Source SARIF file
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: output=opensoure.json
 
