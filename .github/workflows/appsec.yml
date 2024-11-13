@@ -44,7 +44,7 @@ jobs:
 
       - name: Snyk Open Source # For testing and failing please add snyk test before snyk monitor
         run: |
-          snyk test --sarif-file-output=opensoure.json || true
+          snyk test --sarif-file-output=opensource.json || true
      #     snyk monitor --all-projects --project-business-criticality=critical --project-tags="component=pkg:juice-shop-bash@main" --org=8732cc6d-085e-4f1d-ba98-cf4b491723fb || true     
      # - name: Snyk Code HTML # Remove || true to fail if there are vulnerabilities
      #   run: |  
@@ -87,5 +87,5 @@ jobs:
       - name: Upload Open Source SARIF file
         uses: github/codeql-action/upload-sarif@v3
         with:
-          sarif_file: output=opensoure.json
+          sarif_file: opensource.json
 
