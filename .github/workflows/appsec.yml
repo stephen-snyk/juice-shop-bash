@@ -55,7 +55,7 @@ jobs:
            snyk code test --sarif  > results.sarif || true
 
       - name: Change Severity
-        run: python example.py --file results.sarif
+        run: python example.py --file results.sarif | jq > results.sarif
      # - name: Set SARIF file permissions
      #   run: chmod 644 results.sarif
 
