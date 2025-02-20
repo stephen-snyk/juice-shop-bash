@@ -1,0 +1,24 @@
+Error: {
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Snyk Open Source",
+          "semanticVersion": "1.1292.4",
+          "version": "1.1292.4",
+          "informationUri": "https://docs.snyk.io/",
+          "properties": {},
+          "rules": []
+        }
+      },
+      "results": []
+    }
+  ]
+}
+    at test (/snapshot/project/dist/cli/webpack:/snyk/src/cli/commands/test/index.ts:224:17)
+    at runCommand (/snapshot/project/dist/cli/webpack:/snyk/src/cli/main.ts:56:25)
+    at main (/snapshot/project/dist/cli/webpack:/snyk/src/cli/main.ts:343:11)
+    at /snapshot/project/dist/cli/webpack:/snyk/src/cli/index.ts:13:3
+    at callHandlingUnexpectedErrors (/snapshot/project/dist/cli/webpack:/snyk/src/lib/unexpected-error.ts:28:5)
