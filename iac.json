@@ -1,0 +1,602 @@
+[
+  {
+    "ok": false,
+    "code": 1022,
+    "error": "Failed to parse YAML file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/data/static/codefixes/weakPasswordChallenge.info.yml"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/@angular/material/schematics/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/@cyclonedx/cyclonedx-library/tsconfig.d.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/@cyclonedx/cyclonedx-library/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/array-buffer-byte-length/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/available-typed-arrays/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/comment-parser/.vscode/launch.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/data-view-buffer/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/data-view-byte-length/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/data-view-byte-offset/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/define-data-property/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/es-define-property/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/es-errors/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/es-object-atoms/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/es-set-tostringtag/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/es-to-primitive/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/eslint-module-utils/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/eventemitter-asyncresource/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/has-proto/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/has-tostringtag/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/hasown/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/inquirer/node_modules/rxjs/src/tsconfig.cjs.spec.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-array-buffer/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-data-view/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-finalizationregistry/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-map/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-negative-zero/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-set/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-shared-array-buffer/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-typed-array/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-weakmap/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-weakset/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/is-what/.vscode/settings.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/piscina/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/possible-typed-array-names/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/resolve/test/resolver/malformed_package_json/package.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/safe-array-concat/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/set-function-length/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/set-function-name/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/side-channel/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/ts-node/node12/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/typed-array-buffer/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/typed-array-byte-length/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/typed-array-byte-offset/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/typed-array-length/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/typed-assert/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/typed-assert/.vscode/extensions.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/typed-assert/.vscode/settings.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/webpack-subresource-integrity/tsdoc-metadata.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/which-builtin-type/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/which-collection/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/frontend/node_modules/which-typed-array/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/@cyclonedx/cyclonedx-library/tsconfig.d.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/@cyclonedx/cyclonedx-library/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/array-buffer-byte-length/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/available-typed-arrays/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/data-view-buffer/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/data-view-byte-length/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/data-view-byte-offset/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/define-data-property/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/es-define-property/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/es-errors/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/es-object-atoms/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/es-set-tostringtag/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/es-to-primitive/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/eslint-module-utils/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/file-js/test/fixtures/justFiles/b.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/filehound/test/fixtures/justFiles/b.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/filehound/test/fixtures/mixed/a.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/filehound/test/fixtures/mixed/z.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/has-proto/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/has-tostringtag/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/hasown/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/is-array-buffer/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/is-data-view/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/is-finalizationregistry/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/is-map/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/is-negative-zero/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/is-set/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/is-shared-array-buffer/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/is-typed-array/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/is-weakmap/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/is-weakset/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/listr2/node_modules/rxjs/src/tsconfig.cjs.spec.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/possible-typed-array-names/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/psl/types/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/retry-as-promised/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/safe-array-concat/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/set-function-length/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/set-function-name/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/side-channel/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/ts-node/node12/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/typed-array-buffer/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/typed-array-byte-length/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/typed-array-byte-offset/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/typed-array-length/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/which-builtin-type/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/which-collection/tsconfig.json"
+  },
+  {
+    "ok": false,
+    "code": 1021,
+    "error": "Failed to parse JSON file",
+    "path": "/Users/stephen/Documents/juice-shop-bash/node_modules/which-typed-array/tsconfig.json"
+  }
+]
